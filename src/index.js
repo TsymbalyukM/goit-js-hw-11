@@ -47,7 +47,7 @@ function fetchGallery(photos) {
   }
 }
 
-async function createPage() {
+async function createAnotherPage() {
   currentPage += 1;
 
   const photos = await fetchPhotos(input.value.trim(), currentPage);
